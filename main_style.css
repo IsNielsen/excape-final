@@ -2,7 +2,7 @@ body {
     margin: 0px;
 }
 .navbar {
-    background: slategray;
+    background: darkgreen;
 }
 .navbar div {
     display: none;
@@ -15,13 +15,15 @@ body {
     display: block;
     text-align: center;
     padding: 1em;
-    text-decoration: none;
-    background: darkslategrey;
+    text-decoration: underline;
+    background: #224c23;
     color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .navbar .link:hover,
 .navbar .link:active {
-    color: darkslategray;
+    color: #2f4f4f;
     background: white;
 }
 .navbar .brand {
@@ -33,6 +35,14 @@ body {
 .navbar a {
     text-decoration: none;
 }
+
+.navbar a h1{
+    display: flex;
+
+    margin: 0 0 0 0;
+    color: white
+}
+
 .navbar .toggle {
     padding: 1em;
     color: black;
