@@ -2,7 +2,7 @@ body {
     margin: 0px;
 }
 .navbar {
-    background: darkgreen;
+    border-bottom: 10px solid darkslategrey ;
 }
 .navbar div {
     display: none;
@@ -30,22 +30,25 @@ body {
     width: 15em;
     text-align: center;
     padding: 1em;
-    color: white;
+    border-right: 10px solid darkslategrey;
+    margin-right: 20px;
 }
 .navbar a {
     text-decoration: none;
 }
 
 .navbar a h1{
-    display: flex;
-
+    display: inline-grid;
+    font-size: 40px;
     margin: 0 0 0 0;
-    color: white
+    color: darkslategrey;
+    border-bottom: 5px dashed grey;
 }
 
 .navbar .toggle {
     padding: 1em;
     color: black;
+    font-size: 20px;
 }
 @media (min-width: 48em) {
     .navbar {
